@@ -114,13 +114,6 @@
     flex-direction: row;
   }
 
-
-  // &__item:not(:last-child) {
-  //   margin-right: 50px;
-  // }
-
-
-
   &__icons {
     fill: currentColor;
     margin-right: 10px;
@@ -206,11 +199,6 @@
 }
 
 
-.mob-nav__list {
-  // padding-left: 25px;
-
-}
-
 .mob-nav__link {
   font-weight: 500;
   font-size: 40px;
@@ -225,7 +213,6 @@
 }
 
 .mob-contact-list {
-  // padding-left: 25px;
   margin-bottom: 64px;
 }
 
@@ -254,7 +241,6 @@
 .menu-soc-list {
   display: flex;
   width: 100%;
-  // margin-left: 25px;
   margin-bottom: 48px;
 }
 
