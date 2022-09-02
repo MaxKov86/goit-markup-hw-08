@@ -2,12 +2,10 @@
   background-color: var(--header-background-color);
 
   &__title {
+    @include font (700, 28px, 1.18, 0.03em);
     margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 1.18;
+
     text-align: center;
-    letter-spacing: 0.03em;
 
     color: var(--primary-text-color);
   }

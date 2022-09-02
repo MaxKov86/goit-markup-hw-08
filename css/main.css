@@ -699,11 +699,11 @@ img {
   margin-bottom: 10px;
 }
 .features-list__text {
-  color: var(--second-text-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }
 
 .features-list__item {
@@ -740,8 +740,8 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   margin-bottom: 50px;
 }
 @media screen and (min-width: 1200px) {
@@ -777,8 +777,8 @@ img {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
@@ -871,12 +871,12 @@ img {
   background-color: var(--header-background-color);
 }
 .clients__title {
-  margin-bottom: 50px;
   font-weight: 700;
   font-size: 28px;
   line-height: 1.18;
-  text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  text-align: center;
   color: var(--primary-text-color);
 }
 
