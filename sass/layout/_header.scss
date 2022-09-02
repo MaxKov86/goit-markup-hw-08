@@ -156,6 +156,23 @@
   }
 }
 
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+
+  padding-right: 15px;
+  padding-left: 40px;
+  margin: 0 auto;
+
+  @include mobile {
+    width: 480px;
+  }
+
+}
+
+
 .mob-menu {
   position: fixed;
   top: 0;
@@ -165,13 +182,6 @@
   background-color: #ffffff;
   z-index: 2;
   overflow-y: scroll;
-
-  >.container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: space-between;
-  }
 
   @include tablet {
     display: none;
