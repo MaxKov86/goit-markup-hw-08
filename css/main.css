@@ -359,11 +359,9 @@ img {
 }
 
 .header {
-  position: fixed;
+  position: sticky;
   top: 0;
-  right: 0;
-  left: 0;
-  z-index: 35;
+  z-index: 1;
   background-color: var(--header-background-color);
   border-bottom: 1px solid #ececec;
 }
