@@ -12,6 +12,14 @@
     text-align: center;
 
     margin-bottom: 10px;
+
+    @include desktop {
+      text-align: start
+    }
+
+    @include tablet {
+      text-align: start
+    }
   }
 
   &__text {

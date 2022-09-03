@@ -92,7 +92,13 @@
     height: 4px;
     border-radius: 2px;
     background-color: var(--accent-color);
+
+    @media screen and (max-width:767px) {
+      display: none;
+    }
   }
+
+
 }
 
 
@@ -211,7 +217,7 @@
 
 .mob-nav__link {
   font-weight: 500;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1.18;
   letter-spacing: 0.02em;
   color: #212121;
@@ -233,7 +239,7 @@
 
 .mob-contact-list__link-tel {
   font-weight: 500;
-  font-size: 34px;
+  font-size: 24px;
   line-height: 1.18;
   letter-spacing: 0.02em;
   color: #2196F3;
@@ -241,7 +247,7 @@
 
 .mob-contact-list__link-mail {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
 
@@ -256,7 +262,7 @@
 
 .menu-soc-list__link {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.22;
   letter-spacing: 0.02em;
 
@@ -266,6 +272,6 @@
 .soc-border {
   border: 1px solid rgba(33, 33, 33, 0.2);
   transform: rotate(90deg);
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
