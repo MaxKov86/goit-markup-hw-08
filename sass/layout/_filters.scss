@@ -132,7 +132,7 @@
   height: 100%;
 
 
-  padding: 35px 24px;
+  padding: 77px 24px;
   background-color: rgba(33, 150, 243, 0.9);
 
   font-family: 'Roboto';
@@ -152,6 +152,12 @@
   @include mobile {
     font-size: 18px;
     line-height: 1.55;
-    padding: 77px 24px;
+
+  }
+
+  @media screen and(max-width:479px) {
+
+    padding: 20px 24px;
+
   }
 }

@@ -424,26 +424,6 @@ img {
   margin-right: 50px;
 }
 
-.current {
-  color: var(--accent-color);
-}
-.current::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin-bottom: -1px;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: var(--accent-color);
-}
-@media screen and (max-width: 767px) {
-  .current::after {
-    display: none;
-  }
-}
-
 /* Контакты */
 .contact-list {
   display: none;
@@ -603,6 +583,26 @@ img {
   transform: rotate(90deg);
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.current {
+  color: var(--accent-color);
+}
+.current::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: -1px;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--accent-color);
+}
+@media screen and (max-width: 767px) {
+  .current::after {
+    display: none;
+  }
 }
 
 .hero {
@@ -1267,7 +1267,7 @@ img {
   position: absolute;
   top: 0;
   height: 100%;
-  padding: 35px 24px;
+  padding: 77px 24px;
   background-color: rgba(33, 150, 243, 0.9);
   font-family: "Roboto";
   font-style: normal;
@@ -1283,6 +1283,10 @@ img {
   .filters-top-text {
     font-size: 18px;
     line-height: 1.55;
-    padding: 77px 24px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .filters-top-text {
+    padding: 20px 24px;
   }
 }/*# sourceMappingURL=main.css.map */
